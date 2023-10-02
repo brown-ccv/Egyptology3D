@@ -902,6 +902,7 @@ GameObject:
   - component: {fileID: 132304580}
   - component: {fileID: 132304579}
   - component: {fileID: 132304584}
+  - component: {fileID: 132304586}
   - component: {fileID: 132304583}
   - component: {fileID: 132304582}
   - component: {fileID: 132304585}
@@ -1049,6 +1050,44 @@ MonoBehaviour:
   m_LocomotionProvider: {fileID: 132304583}
   m_MinHeight: 0
   m_MaxHeight: Infinity
+--- !u!114 &132304586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132304578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 919e39492806b334982b6b84c90dd927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 132304584}
+  m_TurnSpeed: 45
+  m_LeftHandTurnAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Hand Turn
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 051ea67e-04ca-49b1-a7de-98af11dceff4
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_RightHandTurnAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Right Hand Turn
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: f3925dd5-a7b9-431d-a11d-3338ac33a1ed
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
 --- !u!1 &162679015
 GameObject:
   m_ObjectHideFlags: 0
